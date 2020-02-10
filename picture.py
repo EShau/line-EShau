@@ -95,7 +95,7 @@ class Constellation:
         center_star = Star()
         self.stars.append(center_star)
         self.points.extend(center_star.points)
-        for i in range(100):
+        for i in range(70):
             self.add()
     def add(self):
         new_star = Star("small")
@@ -120,11 +120,8 @@ class Constellation:
             star.plot()
 
 Constellation().plot()
-# for i in range(150):
-#     random = randint(1,50)
-#     if random == 1:
-#         Constellation().plot()
-#     Star("small").plot()
+for i in range(65):
+    Star("small").plot()
 
 display(s)
 save_ppm(s, 'binary.ppm')
