@@ -1,5 +1,4 @@
-run: main.py
-	# python main.py
+run: picture.py
 	python picture.py
 
 clean:
